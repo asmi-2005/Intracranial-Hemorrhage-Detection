@@ -1,6 +1,7 @@
 # 🧠 AI-Based Intracranial Hemorrhage Detection & Subtype Classification
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
+[![Deploy with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=asmi-2005/Intracranial-Hemorrhage-Detection&branch=main&mainModule=app/app.py)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-asmi--2005%2FIntracranial--Hemorrhage--Detection-blue?logo=github)](https://github.com/asmi-2005/Intracranial-Hemorrhage-Detection)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -109,8 +110,8 @@ Intracranial_Hemorrhage_Detection/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Intracranial_Hemorrhage_Detection.git
-cd Intracranial_Hemorrhage_Detection
+git clone https://github.com/asmi-2005/Intracranial-Hemorrhage-Detection.git
+cd Intracranial-Hemorrhage-Detection
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -139,27 +140,18 @@ Open your browser at `http://localhost:8501`.
 
 ## 🚀 Deploying to Streamlit Community Cloud
 
-Deploying this application to **Streamlit Community Cloud** is free and takes less than 3 minutes:
+Deploying this application to **Streamlit Community Cloud** is free and takes less than 2 minutes:
 
-### Step 1: Push your Code to GitHub
-1. Create a new repository on [GitHub](https://github.com/new) named `Intracranial-Hemorrhage-Detection`.
-2. Push your project code:
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial commit: AI-Based Intracranial Hemorrhage Detection"
-git remote add origin https://github.com/<your-username>/Intracranial-Hemorrhage-Detection.git
-git push -u origin main
-```
+### Option A: 1-Click Direct Deployment
+Click the badge below to automatically prefill the Streamlit deployment settings:
 
-> **Note**: The `.gitignore` file automatically excludes the raw dataset (`dataset/`) and caches while tracking the trained model weights (`outputs/models/efficientnetv2_best.pth` ~81 MB, under GitHub's 100 MB limit).
+[![Deploy with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=asmi-2005/Intracranial-Hemorrhage-Detection&branch=main&mainModule=app/app.py)
 
-### Step 2: Deploy on Streamlit Cloud
+### Option B: Manual Setup
 1. Go to [share.streamlit.io](https://share.streamlit.io) and log in with your GitHub account.
 2. Click **"New app"** (or **"Create app"**).
 3. Fill in the deployment details:
-   - **Repository**: `<your-username>/Intracranial-Hemorrhage-Detection`
+   - **Repository**: `asmi-2005/Intracranial-Hemorrhage-Detection`
    - **Branch**: `main`
    - **Main file path**: `app/app.py`
 4. Click **"Deploy!"**.
