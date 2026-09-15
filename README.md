@@ -47,10 +47,13 @@ The multi-class classifier diagnoses CT scan slices across 6 distinct categories
 
 ## ✨ Key Features
 - **Instant CT Scan Inference**: Upload your own head CT slice (JPG, JPEG, PNG) or select from pre-loaded clinical demonstration scans.
-- **Explainable AI (Grad-CAM)**: Visual heatmap overlay showing the exact brain regions influencing the model's prediction.
-- **Risk Stratification & Clinical Guidance**: Automated categorization (Low, Moderate, High risk) paired with triage recommendations.
+- **🎚️ Interactive Grad-CAM Controls**: Dynamically adjust heatmap opacity (0% to 100%), switch colormaps (JET, VIRIDIS, INFERNO, MAGMA, HOT), and filter background activations with attention thresholding in real time.
+- **🩻 Neuroradiology CT Windowing**: Simulate clinical Hounsfield Unit (HU) windowing levels (Standard, Brain Soft-Tissue, Subdural/Blood, Bone) for authentic radiological inspection.
+- **📖 Clinical Neuroradiology Reference Atlas**: Interactive diagnostic guide detailing pathophysiology, typical vessels, cranial suture rules, and emergency surgical red flags for all 6 categories.
+- **📊 Model Performance & Transparency**: Built-in evaluation dashboard featuring the full classification report, confusion matrix, loss/accuracy curves, and class distribution across 402 test slices.
+- **Risk Stratification & Clinical Guidance**: Automated categorization (Low, Moderate, High risk) paired with actionable triage recommendations.
 - **PDF Report Generation**: Export clinical analysis reports with scan metadata, confidence levels, and Grad-CAM visualizations.
-- **Session Analytics**: Live tracker of evaluated normal vs. abnormal scans.
+- **Session Analytics**: Real-time tracker of evaluated normal vs. abnormal scans.
 
 ---
 
