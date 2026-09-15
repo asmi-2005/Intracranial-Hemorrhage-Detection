@@ -250,6 +250,19 @@ margin-top: 5px;
 letter-spacing: 0.4px;
 }
 
+[data-testid="stMetricValue"] {
+font-size: 1.15rem !important;
+white-space: normal !important;
+word-break: break-word !important;
+overflow-wrap: break-word !important;
+line-height: 1.3 !important;
+}
+
+[data-testid="stMetricLabel"] {
+font-size: 0.85rem !important;
+color: #8ea5bc !important;
+}
+
 
 /* ========================================================
 UPLOAD
@@ -1156,9 +1169,9 @@ with col_analysis:
                 st.session_state.abnormal_count += 1
 
 
-            st.success(
-                "Analysis completed successfully."
-            )
+            st.session_state.analysis_done = True
+
+            st.rerun()
 
 
         except Exception as e:

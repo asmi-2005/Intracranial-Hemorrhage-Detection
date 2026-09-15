@@ -1,9 +1,9 @@
 # 🧠 AI-Based Intracranial Hemorrhage Detection & Subtype Classification
 
-[![Deploy with Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=asmi-2005/Intracranial-Hemorrhage-Detection&branch=main&mainModule=app/app.py)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-asmi--2005%2FIntracranial--Hemorrhage--Detection-blue?logo=github)](https://github.com/asmi-2005/Intracranial-Hemorrhage-Detection)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Live Web App](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://intracranial-hemorrhage-detection0804.streamlit.app/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/asmi-2005/Intracranial-Hemorrhage-Detection)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end deep learning clinical decision-support application for detecting and classifying **Intracranial Hemorrhage (ICH)** from non-contrast head CT slices, powered by **EfficientNetV2-S**, **Grad-CAM explainable AI**, and an interactive **Streamlit** dashboard.
