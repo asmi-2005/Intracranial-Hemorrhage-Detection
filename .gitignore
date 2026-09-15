@@ -1,0 +1,30 @@
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Large Datasets (keep repo under GitHub limits & lean for deployment)
+dataset/
+outputs/processed_data/
+
+# Secondary model weights (only efficientnetv2_best.pth is needed for the app)
+outputs/models/efficientnetv2_final.pth
+
+# OS and Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
